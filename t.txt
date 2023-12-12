@@ -1,0 +1,125 @@
+[
+  {
+    "address": "123 Main St",
+    "birthday": "1990-01-01",
+    "code": "USR001",
+    "email": "user1@example.com",
+    "firstName": "John",
+    "fullName": "John Doe",
+    "gender": "Male",
+    "id": 1,
+    "image": "path/to/image1.jpg",
+    "lastName": "Doe",
+    "password": "password123",
+    "passwordConfirm": "password123",
+    "phoneNumber": "123-456-7890",
+    "role": 1
+  },
+  {
+    "address": "456 Oak St",
+    "birthday": "1985-05-15",
+    "code": "USR002",
+    "email": "user2@example.com",
+    "firstName": "Jane",
+    "fullName": "Jane Smith",
+    "gender": "Female",
+    "id": 2,
+    "image": "path/to/image2.jpg",
+    "lastName": "Smith",
+    "password": "securepass",
+    "passwordConfirm": "securepass",
+    "phoneNumber": "987-654-3210",
+    "role": 2
+  },
+  {
+    "address": "789 Pine St",
+    "birthday": "1982-09-20",
+    "code": "USR003",
+    "email": "user3@example.com",
+    "firstName": "Mike",
+    "fullName": "Mike Johnson",
+    "gender": "Male",
+    "id": 3,
+    "image": "path/to/image3.jpg",
+    "lastName": "Johnson",
+    "password": "pass1234",
+    "passwordConfirm": "pass1234",
+    "phoneNumber": "555-123-4567",
+    "role": 3
+  }
+]
+
+
+
+
+{
+  "titleVi": "Đề tài Tiếng Việt",
+  "titleEn": "English Thesis",
+  "approvalStatus": 1,
+  "thesisType": 2,
+  "semester": "Spring 2023",
+  "programs": [
+    {
+      "id": 1,
+      "value": 3
+    },
+    {
+      "id": 2,
+      "value": 5
+    }
+  ],
+  "userRoleOwner": 1,
+  "thesisInfo": "Thông tin về đề tài",
+  "thesisTask": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "deadline": "2023-03-15",
+      "status": "In Progress",
+      "priority": 1,
+      "description": "Mô tả công việc 1",
+      "note": "Ghi chú về công việc 1",
+      "startTime": "2023-03-01T08:00:00Z",
+      "endTime": "2023-03-15T17:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Task 2",
+      "deadline": "2023-04-01",
+      "status": "Completed",
+      "priority": 2,
+      "description": "Mô tả công việc 2",
+      "note": "Ghi chú về công việc 2",
+      "startTime": "2023-03-20T09:00:00Z",
+      "endTime": "2023-04-01T18:00:00Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
+  "advisors": [
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "missions": [
+    {
+      "id": 1,
+      "value": "Mission 1"
+    },
+    {
+      "id": 2,
+      "value": "Mission 2"
+    }
+  ],
+  "startTime": "2023-02-01T00:00:00Z",
+  "endTime": "2023-06-30T23:59:59Z"
+}

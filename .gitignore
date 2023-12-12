@@ -1,0 +1,22 @@
+# dotenv environment variables file
+.env
+
+# package
+go.mod
+go.sum
+
+main.go
+
+#config SFTP
+.vscode
+
+# Logs
+assets/log/
+
+# macOS
+.DS_Store
+
+docs
+
+#debug
+__debug_bin.exe
